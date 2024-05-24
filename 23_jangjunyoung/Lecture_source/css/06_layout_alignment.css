@@ -1,0 +1,20 @@
+.parent {
+    background-color: beige;
+    text-align: right;
+}
+
+.parent span {
+    background-color: hotpink;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    /* right */
+    /* margin-left: auto; */
+    /* left */
+    /* margin-right: auto; */
+    /* center */
+    margin: 0 auto;
+}

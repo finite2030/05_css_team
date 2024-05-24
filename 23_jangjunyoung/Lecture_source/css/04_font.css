@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    font-size: 25px;
+}
+
+/* serif 글자 끝에 삐침있다. 
+*  sans-serif 글자 끝에 삐침이 없음
+* cursive 필기체
+* monospace 글자간격 모두 동일
+*/
+
+#font1 {
+    font-family: consolas, monospace;
+}
+
+#font2 {
+    /* font-size: 30px; */
+    /* 300(light) 400(regular) 700(bold) */
+    /* font-weight: 700;
+    font-style: italic; */
+    line-height: 90px;
+    /* font-family: "Noto Sans KR", sans-serif; */
+
+    font: italic bold 48/48px "Noto Sans KR", sans-serif;
+}
+
+#font3 {
+    font-family: "Poetsen One", sans-serif;
+}
+
+html {
+    font-size: 12px;
+}
+
+#parent {
+    font-size: 32px;
+}
+
+#parent :first-child {
+    font-size: 24px; /* 절대크기 */
+}
+
+#parent :nth-child(2) {
+    font-size: 150%; /* 부모요소 상대크기 */
+}
+
+#parent :nth-child(3) {
+    font-size: 1.5em; /*부모요소 상대크기 */
+}
+
+#parent :last-child {
+    font-size: 5rem; /* 루트요소 상대크기 */
+}

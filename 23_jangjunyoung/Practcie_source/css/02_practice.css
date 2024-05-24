@@ -1,0 +1,10 @@
+.item {
+    background-color: aquamarine;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 auto;
+}
