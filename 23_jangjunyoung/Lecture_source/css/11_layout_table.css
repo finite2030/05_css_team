@@ -1,0 +1,16 @@
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    caption-side: bottom;
+    width: 500px;
+    height: 500px;
+    table-layout: fixed; /* 테이블 너비 고정 */
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px 5px;
+    /* display: table-cell; */
+    vertical-align: bottom; /* table-cell에서만 작동 */
+}

@@ -1,0 +1,18 @@
+.block {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+}
+
+.color1 { background-color: red; }
+.color2 { background-color: orange; }
+.color3 { background-color: yellow; }
+.color4 { background-color: green; }
+.color5 { background-color: blue; }
+
+.d-inline { display: inline; }
+.d-block { display: block; }
+.d-inline-block { display: inline-block; }
+.d-none { display: none;} /* 요소를 숨기는데 영역까지 함께 제거*/
+.v-hidden { visibility: hidden;} /* 차지하는 영역은 남기고 제거 */
+.opacity-0 { opacity: 0} /* 차지하는 영역도 남고, 투명도만 처리 */

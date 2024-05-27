@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper img {
+    width: 300px;
+    margin: 50px 0;
+}
+
+.wrapper img:first-child:hover {
+    transform: translate(-100px, 100px);
+}
+
+/* 확장 or 축소 */
+.wrapper img:nth-child(2):hover {
+    transform: scale(.7);
+}
+
+/* 회전 */
+.wrapper img:last-child {
+    transform: rotate(180deg);
+}

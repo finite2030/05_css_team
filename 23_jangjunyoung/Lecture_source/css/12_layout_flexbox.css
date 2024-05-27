@@ -1,0 +1,17 @@
+ul#test {
+    list-style: none;
+    padding: 0;
+    height: 500px;
+    background-color: royalblue;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+ul#test li {
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    background-color:tomato;
+}
